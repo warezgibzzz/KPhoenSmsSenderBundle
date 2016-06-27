@@ -11,10 +11,16 @@
             "homepage": "http://www.kevingomez.fr/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/warezgibzzz/SmsSender
+        }
+    ],
     "require": {
         "symfony/framework-bundle": ">=2.1.0",
         "psr/log": "~1.0",
-        "Carpe-Hora/SmsSender": "~1.4.0"
+        "Carpe-Hora/SmsSender": "dev-master"
     },
     "require-dev": {
         "symfony/symfony": ">=2.1.0",
